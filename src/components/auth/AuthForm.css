@@ -1,0 +1,127 @@
+.auth-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form h1 {
+  text-align: center;
+}
+
+.auth-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form label {
+  margin-bottom: 8px;
+}
+
+.auth-form input {
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.auth-form input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.auth-form span {
+  margin-left: 4px;
+}
+
+.auth-form a {
+  margin-top: 8px;
+  display: block;
+  text-align: center;
+}
+
+.auth-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.auth-form button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-top: 4px;
+}
+.auth-form input:focus {
+  outline: 2px solid #007bff;
+}
+
+.auth-form label {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.auth-form input {
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.auth-form input:focus {
+  border-color: #007bff;
+}
+
+.auth-form input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.auth-form span {
+  margin-left: 4px;
+  color: #333;
+}
+
+.auth-form a {
+  margin-top: 8px;
+  display: block;
+  text-align: center;
+  color: #007bff;
+}
+
+.auth-form a:hover {
+  text-decoration: underline;
+}
+
+.auth-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.auth-form button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-top: 4px;
+}
+.remember-block {
+  display: flex;
+  align-items: baseline}
+.password-input {
+
+  width: 360px;
+}
+.email-input {
+  width: 360px;
+
+}
