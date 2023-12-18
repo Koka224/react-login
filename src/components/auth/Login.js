@@ -1,4 +1,3 @@
-// AuthForm.js
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -15,7 +14,6 @@ const LoginForm = () => {
 
     return (
         <div className="auth-form">
-            <img src="./pic/calendar-icon.svg" alt="Logo" />
             <h1>Log in to your Account</h1>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <label>Email:</label>
